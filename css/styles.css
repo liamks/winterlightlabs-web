@@ -29,6 +29,9 @@ body {
     font-size: 18px;
 }
 
+.navbar .navbar-toggle .icon-bar {
+    background-color: rgb(79, 83, 120);
+}
 .header-image {
     /*
     display: table;
