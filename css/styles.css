@@ -51,6 +51,7 @@ body {
     
     display: block;
     width: 100%;
+    max-width: 100%;
     height: auto;
     text-align: center;
     background: url('../img/lighthouse_gradient.jpg') no-repeat center center scroll;
