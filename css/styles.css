@@ -61,9 +61,15 @@ body {
     -o-background-size: cover;
     
 }
+
+.header-logo {
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    height: 250px;
+}
  
 .headline {
-    padding: 120px 0;
+    padding: 160px 0;
     width: 100%;
     max-width: 100%;
 }
