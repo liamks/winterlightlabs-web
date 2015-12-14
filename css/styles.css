@@ -63,6 +63,8 @@ body {
 
 .headline {
     padding: 120px 0;
+    width: 100%;
+    max-width: 100%;
 }
 
 .headline h1 {
