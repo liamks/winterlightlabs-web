@@ -60,10 +60,6 @@ body {
     -o-background-size: cover;
     
 }
-
-.container { 
-    width: 100% !important 
-}
  
 .headline {
     padding: 120px 0;
