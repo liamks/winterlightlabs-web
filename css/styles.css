@@ -1,0 +1,259 @@
+/*!
+ * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.navbar {
+    border: none;
+    border-radius: 0;
+    background-color: #fff;
+}
+
+.navbar a {
+    color: rgb(79, 83, 120);
+}
+
+.navbar-brand:hover, .navbar-brand:active, .nav li a:hover, .nav li a:active, .nav li a:focus {
+    background-color: transparent;
+    color: rgb(143, 165, 210);
+}
+
+.social-icons {
+    font-size: 18px;
+}
+
+.header-image {
+    /*
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/lighthouse_gradient.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: 0 -120px;
+    */
+    
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: url('../img/lighthouse_gradient.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+}
+
+.headline {
+    padding: 120px 0;
+}
+
+.headline h1 {
+    font-size: 70px;
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.headline h2 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.featurette-divider {
+    margin: 50px 0;
+    margin-top: 0px;
+}
+
+.featurette {
+    overflow: hidden;
+    padding: 80px 0;
+    position: relative;
+    top: -80px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.featurette-image {
+    margin-bottom: 40px;
+}
+.featurette-image.pull-left {
+    margin-right: 55px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 55px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+.team-photo {
+    height: 100px; 
+    max-width: 100%; 
+    float: left; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+}
+
+/* Wide containers */
+.wide-container {
+  width: 100%;
+}
+
+/* Gradients */
+.gradient-wll {
+  width: 100%;
+  background-image: -webkit-linear-gradient(110deg, #b2dff5 10%, #b39ac3 90%), url("../images/background/diamond_upholstery.png");
+  background-image: -moz-linear-gradient(110deg, #b2dff5 10%, #b39ac3 90%), url("../images/background/diamond_upholstery.png");
+  background-image: -o-linear-gradient(110deg, #b2dff5 10%, #b39ac3 90%), url("../images/background/diamond_upholstery.png");
+  background-image: linear-gradient(110deg, #b2dff5 10%, #b39ac3 90%), url("../images/background/diamond_upholstery.png");
+  background-image: -ms-linear-gradient(110deg, #b2dff5 10%, #b39ac3 90%);
+  /* IE 10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#b2dff5, endColorstr=#b39ac3, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  /*background-blend-mode: multiply;*/
+  color: #fff;
+  /* purple: b39ac3
+   * blue: b2dff5
+  */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:1200px) {
+    .headline h1 {
+        font-size: 140px;
+    }
+
+    .headline h2 {
+        font-size: 63px;
+    }
+
+    .featurette-divider {
+        margin: 50px 0;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 20px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 20px;
+    }
+
+    .featurette-heading {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:991px) {
+    .headline h1 {
+        font-size: 105px;
+    }
+
+    .headline h2 {
+        font-size: 50px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-image {
+        max-width: 50%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    .container {
+        margin: 0 15px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-heading {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:668px) {
+    .headline h1 {
+        font-size: 70px;
+    }
+
+    .headline h2 {
+        font-size: 32px;
+    }
+
+    .featurette-divider {
+        margin: 30px 0;
+    }
+}
+
+@media(max-width:640px) {
+    .headline {
+        padding: 75px 0 25px 0;
+    }
+
+    .headline h1 {
+        font-size: 60px;
+    }
+
+    .headline h2 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:375px) {
+    .featurette-divider {
+        margin: 10px 0;
+    }
+
+    .featurette-image {
+        max-width: 100%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+}
