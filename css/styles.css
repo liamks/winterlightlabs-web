@@ -48,7 +48,7 @@ body {
     -o-background-size: cover;
     background-position: 0 -120px;
     */
-    
+
     display: block;
     width: 100%;
     max-width: 100%;
@@ -59,7 +59,7 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    
+
 }
 
 .header-logo {
@@ -67,7 +67,7 @@ body {
     filter: alpha(opacity=60); /* For IE8 and earlier */
     height: 250px;
 }
- 
+
 .headline {
     padding: 160px 0;
     width: 100%;
@@ -117,9 +117,9 @@ body {
 }
 
 .team-photo {
-    height: 100px; 
-    max-width: 100%; 
-    float: left; 
+    height: 100px;
+    max-width: 100%;
+    float: left;
     margin-right: 10px;
     margin-bottom: 10px;
     border: 1px solid #fff;
@@ -146,6 +146,25 @@ body {
   /* purple: b39ac3
    * blue: b2dff5
   */
+}
+
+/* SLP Page */
+
+.word {
+  position: relative;
+}
+.current {
+  text-decoration: underline;
+}
+
+#marker{
+  position: absolute;
+  background-color: #009688;
+  top: 0;
+  left: -2px;
+  border-radius: 2px;
+  opacity: 0.2;
+  padding: 2px;
 }
 
 footer {
@@ -240,7 +259,7 @@ footer {
     .headline {
         padding: 75px 0 25px 0;
     }
-	
+
     .headline h1 {
         font-size: 40px;
     }
