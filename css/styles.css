@@ -149,6 +149,12 @@ body {
 }
 
 /* SLP Page */
+#transcript {
+  padding: 20px;
+  font-size: 130%;
+  background-color: #eee;
+  margin: 40px 0;
+}
 
 .word {
   position: relative;
