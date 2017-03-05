@@ -152,7 +152,7 @@ body {
 
 #report {
   padding: 10px;
-  border: 1px solid #eee;
+  border: 1px solid #999;
   background-color: #ffffe6;
   border-radius: 4px;
   margin: 40px 0;
@@ -205,9 +205,21 @@ body {
   color: #fff;
 }
 
+#parts-of-speech{
+  background-color: #337ab7;
+  color: #fff;
+  float: right;
+  margin-top: -25px;
+}
+
 #report h2 {
   text-align: center;
   margin: 15px 0 25px 0;
+  color: #337ab7;
+}
+#report h3 {
+  border-bottom: 1px solid #eee;
+  padding: 0 0 10px 0;
   color: #337ab7;
 }
 
