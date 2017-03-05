@@ -46,6 +46,7 @@ $(function(){
   ];
   var $marker = $('<div id="marker">');
   var wavesurfer;
+  var timer;
 
   function buildTranscriptDOM($transcript, t){
     var $paragraph = null;
@@ -67,7 +68,6 @@ $(function(){
   }
 
   function play(){
-
     var currentWord = transcript[currentIndex];
     if(!currentWord){
       currentIndex = 0;
@@ -81,7 +81,7 @@ $(function(){
     $marker.height(currentWord.$.height());
     var wordDuration = currentWord.te - currentWord.ts;
     currentWord.$.append($marker);
-    setTimeout(function(){
+    timer = setTimeout(function(){
       // if(currentIndex == 3) return
       play();
     }, wordDuration);
@@ -96,7 +96,7 @@ $(function(){
       height: 80
     });
 
-    wavesurfer.load('cookie-theft.mp3');
+    wavesurfer.load('./cookie-theft-short.mp3');
   }
 
   function playAudioAndWaveForm(){
@@ -104,8 +104,15 @@ $(function(){
     play();
   }
 
+  function stop(){
+    currentIndex = null;
+    wavesurfer.stop();
+    clearTimeout(timer);
+  }
+
   startWaveForm();
   $('#play').click(playAudioAndWaveForm);
+  $('#stop').click(stop);
 
   buildTranscriptDOM($('#transcript'), transcript);
 

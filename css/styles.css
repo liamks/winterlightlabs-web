@@ -149,11 +149,49 @@ body {
 }
 
 /* SLP Page */
+
+#report {
+  padding: 10px;
+  border: 1px solid #eee;
+  background-color: #fafafa;
+  border-radius: 4px;
+  margin: 40px 0;
+}
+#transcript-controls{
+  text-align: center;
+  margin: 20px 0;
+}
+.controls {
+  border: none;
+  padding: 5px 20px;
+  font-size: 140%;
+  border-radius: 2px;
+  margin: 0 10px;
+}
+
+#play {
+  background-color: green;
+  color: #fff;
+}
+
+#stop {
+  background-color: red;
+  color: #fff;
+}
+
+#report h2 {
+  text-align: center;
+  margin: 15px 0 25px 0;
+  color: #337ab7;
+}
+
 #transcript {
   padding: 20px;
   font-size: 130%;
-  background-color: #eee;
-  margin: 40px 0;
+  background-color: #fff;
+  margin: 10px 0 10px 0;
+  border: 1px solid #eee;
+
 }
 
 .word {
