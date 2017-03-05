@@ -153,13 +153,39 @@ body {
 #report {
   padding: 10px;
   border: 1px solid #eee;
-  background-color: #fafafa;
+  background-color: #ffffe6;
   border-radius: 4px;
   margin: 40px 0;
 }
+
+#report table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+#report td {
+  padding: 5px 10px;
+  border: 2px solid #ffffe6;
+
+}
+
+#report tr {
+  margin: 5px 0;
+}
+.response {
+  background-color: #eee;
+}
+
+.report-header {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 15px;
+}
+.report-header img{
+  width: 75px;
+}
+
 #transcript-controls{
   text-align: center;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .controls {
   border: none;
@@ -185,12 +211,15 @@ body {
   color: #337ab7;
 }
 
+.box-label {
+  padding: 0 0 0 10px;
+}
+
 #transcript {
-  padding: 20px;
+  padding: 10px 20px 5px 20px;
   font-size: 130%;
-  background-color: #fff;
+  background-color: #eee;
   margin: 10px 0 10px 0;
-  border: 1px solid #eee;
 
 }
 

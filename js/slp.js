@@ -91,7 +91,7 @@ $(function(){
   function startWaveForm(){
     wavesurfer = WaveSurfer.create({
       container: '#waveform',
-      waveColor: 'violet',
+      waveColor: '#337ab7',
       progressColor: 'purple',
       height: 80
     });
