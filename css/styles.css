@@ -149,7 +149,11 @@ body {
 }
 
 /* SLP Page */
-
+.hero {
+  margin: 50px 0;
+  text-align: center;
+  color: #333;
+}
 #report {
   padding: 10px;
   border: 1px solid #999;
