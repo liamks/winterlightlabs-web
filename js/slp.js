@@ -7,7 +7,7 @@ $(function(){
     {word: 'is', ts: 801, te: 1097, pos: 'verb'},
     {word: "standing", ts: 1098, te: 1400, pos: 'verb'},
     {word: "next", ts: 1401, te: 1839, pos: 'adjective'},
-    {word: "to", ts: 1840, te: 1900, pos: ''},
+    {word: "to", ts: 1840, te: 1900, pos: null},
     {word: "a", ts: 1901, te:2004, pos: 'determiner'},
     {word: "sink", ts: 2005, te: 2549, pos: 'noun'},
     {word: "that", ts: 2550, te: 2730, pos: 'determiner'},
@@ -110,9 +110,20 @@ $(function(){
     clearTimeout(timer);
   }
 
+
+  function togglePartsOfSpeech(transcript){
+    $('.pos-legend').slideToggle();
+    transcript.forEach(function(word){
+      if(word.word){
+        word.$.toggleClass(word.pos);
+      }
+    });
+  }
+
   startWaveForm();
   $('#play').click(playAudioAndWaveForm);
   $('#stop').click(stop);
+  $('#parts-of-speech').click(function(){togglePartsOfSpeech(transcript);});
 
   buildTranscriptDOM($('#transcript'), transcript);
 

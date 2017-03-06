@@ -210,6 +210,53 @@ body {
   color: #fff;
   float: right;
   margin-top: -25px;
+  margin-right: 0px;
+  font-size: 95%;
+}
+.determiner, .noun, .verb, .adjective, .preposition, .pronoun {
+}
+
+.determiner {
+  background-color: #2ca25f;
+  color: #fff;
+}
+.noun {
+  background-color: #8856a7;
+  color: #fff;
+}
+.verb {
+  background-color: #43a2ca;
+  color: #fff;
+}
+.adjective {
+  background-color: #e34a33;
+  color: #fff;
+}
+.preposition {
+  background-color: #e0f3db;
+}
+.pronoun {
+  background-color: #fee8c8;
+}
+
+.pos-legend {
+  display: none;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.pos-legend div {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #fff;
+
+}
+
+.pos-legend span {
+  display:inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
 }
 
 #report h2 {
