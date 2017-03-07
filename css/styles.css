@@ -48,7 +48,7 @@ body {
     -o-background-size: cover;
     background-position: 0 -120px;
     */
-    
+
     display: block;
     width: 100%;
     max-width: 100%;
@@ -59,7 +59,7 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    
+
 }
 
 .header-logo {
@@ -67,7 +67,7 @@ body {
     filter: alpha(opacity=60); /* For IE8 and earlier */
     height: 250px;
 }
- 
+
 .headline {
     padding: 160px 0;
     width: 100%;
@@ -117,9 +117,9 @@ body {
 }
 
 .team-photo {
-    height: 100px; 
-    max-width: 100%; 
-    float: left; 
+    height: 100px;
+    max-width: 100%;
+    float: left;
     margin-right: 10px;
     margin-bottom: 10px;
     border: 1px solid #fff;
@@ -146,6 +146,185 @@ body {
   /* purple: b39ac3
    * blue: b2dff5
   */
+}
+
+/* SLP Page */
+.hero {
+  margin: 50px 0;
+  text-align: center;
+  color: #333;
+}
+
+.sub-hero {
+  color: #fee712;
+  background-color: #b39ac3;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.beta-h3{
+  color: #337ab7;
+  margin: 40px 0;
+  font-size: 180%;
+}
+
+.beta-h4 {
+  font-size: 170%;
+}
+
+.beta-text{
+  font-size: 130%;
+  color: #777;
+}
+
+#report {
+  padding: 10px;
+  border: 1px solid #999;
+  background-color: #ffffe6;
+  border-radius: 4px;
+  margin: 40px 0;
+}
+
+#report table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+#report td {
+  padding: 5px 10px;
+  border: 2px solid #ffffe6;
+
+}
+
+#report tr {
+  margin: 5px 0;
+}
+.response {
+  background-color: #eee;
+}
+
+.report-header {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 15px;
+}
+.report-header img{
+  width: 75px;
+}
+
+#transcript-controls{
+  text-align: center;
+  margin: 10px 0;
+}
+.controls {
+  border: none;
+  padding: 5px 20px;
+  font-size: 140%;
+  border-radius: 2px;
+  margin: 0 10px;
+}
+
+#play {
+  background-color: green;
+  color: #fff;
+}
+
+#stop {
+  background-color: red;
+  color: #fff;
+}
+
+#parts-of-speech{
+  background-color: #337ab7;
+  color: #fff;
+  float: right;
+  margin-top: -25px;
+  margin-right: 0px;
+  font-size: 95%;
+}
+.determiner, .noun, .verb, .adjective, .preposition, .pronoun {
+}
+
+.determiner {
+  background-color: #2ca25f;
+  color: #fff;
+}
+.noun {
+  background-color: #8856a7;
+  color: #fff;
+}
+.verb {
+  background-color: #43a2ca;
+  color: #fff;
+}
+.adjective {
+  background-color: #e34a33;
+  color: #fff;
+}
+.preposition {
+  background-color: #e0f3db;
+}
+.pronoun {
+  background-color: #fee8c8;
+}
+
+.pos-legend {
+  display: none;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.pos-legend div {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #fff;
+
+}
+
+.pos-legend span {
+  display:inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+#report h2 {
+  text-align: center;
+  margin: 15px 0 25px 0;
+  color: #337ab7;
+}
+#report h3 {
+  border-bottom: 1px solid #eee;
+  padding: 0 0 10px 0;
+  color: #337ab7;
+}
+
+.box-label {
+  padding: 0 0 0 10px;
+}
+
+#transcript {
+  padding: 10px 20px 5px 20px;
+  font-size: 130%;
+  background-color: #eee;
+  margin: 10px 0 10px 0;
+
+}
+
+.word {
+  position: relative;
+}
+.current {
+  text-decoration: underline;
+}
+
+#marker{
+  position: absolute;
+  background-color: #009688;
+  top: 0;
+  left: -2px;
+  border-radius: 2px;
+  opacity: 0.2;
+  padding: 2px;
 }
 
 footer {
@@ -240,7 +419,7 @@ footer {
     .headline {
         padding: 75px 0 25px 0;
     }
-	
+
     .headline h1 {
         font-size: 40px;
     }
