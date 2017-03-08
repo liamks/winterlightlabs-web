@@ -121,11 +121,13 @@ $(function(){
   }
 
   startWaveForm();
+
   $('#play').click(playAudioAndWaveForm);
   $('#stop').click(stop);
   $('#parts-of-speech').click(function(){togglePartsOfSpeech(transcript);});
 
   buildTranscriptDOM($('#transcript'), transcript);
+  togglePartsOfSpeech(transcript);
 
 
 
