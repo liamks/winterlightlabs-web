@@ -169,6 +169,30 @@ body {
   text-decoration: none;
 }
 
+.sub-heading {
+  color: #e2aa01;
+  }
+
+.science h3 {
+  background-color: #38a4c8;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 3px;
+}
+.science img{
+  width: 100%;
+  border: 5px solid #38a4c8;
+}
+
+.science-info {
+  margin: 10px 0;
+}
+
+.science-ref {
+  font-size: 80%;
+}
+
 /* SLP Page */
 .hero {
   margin: 50px 0;
