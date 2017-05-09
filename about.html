@@ -12,7 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>WinterLight Labs - Monitoring cognitive health through speech</title>
+    <title>WinterLight Labs - About us and our science</title>
 
     <!-- Google Fonts (Open Sans) -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
@@ -45,7 +45,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">WinterLight Labs</a>
+                <a class="navbar-brand" href="index.html">WinterLight Labs</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -54,7 +54,7 @@
                         <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="#news">News</a>
+                        <a href="index.html#news">News</a>
                     </li>
                     <li>
                         <a href="#contact">Contact</a>
@@ -82,7 +82,7 @@
     <header class="header-image">
         <div class="headline" style="padding:80px 0;">
             <div class="container">
-                <h1>WinterLight</h1>
+                <h1>About WinterLight</h1>
                 <h2>
                   WinterLight Labs has developed a novel AI technology that can quickly and
                   accurately quantify speech and language patterns to help
@@ -93,66 +93,76 @@
     </header>
 
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 channel">
-          <a href="slp/transcription-service.html">
-          <img src="img/talk.jpg" alt="speech-language pathologists" />
-          <h3>Speech-language pathologists</h3>
-          <p>Quickly assess &amp; monitor speech and language function.</p>
-        </a>
-        </div>
-        <div class="col-md-4  channel">
-          <a href="channels/senior-care.html">
-            <img src="img/stethescope.jpg" alt="Senior care and home care" />
-            <h3>Senior care &amp; Home care</h3>
-            <p>Monitor seniors' cognitive health.</p>
-          </a>
-        </div>
-        <div class="col-md-4 channel">
-          <a href="channels/pharmaceutical-contract-research-organization.html">
-            <img src="img/pills.jpg" alt="pharmaceutical and contract research organizations" />
-            <h3>Pharmaceutical &amp; contract research organization (CROs)</h3>
-            <p>Quality Assurance, Patient identification and response to therapy.</p>
-          </a>
 
-
-        </div>
-
-      </div>
-    </div>
 
     <!-- Page Content -->
     <div class="container">
         <!-- First Featurette -->
         <div class="featurette" id="about">
-            <h2 class="featurette-heading"> AI assisted speech-based diagnostic platform
+            <h2 class="featurette-heading">
+              WinterLight’s platform is backed by clinical evidence
             </h2>
 
             <div class="row">
-            <div class="col-md-12">
-              <p>
-                WinterLight Labs is developing a proprietary AI diagnostic platform
-                that can objectively assess and monitor cognitive health. Our platform
-                can analyze natural speech to detect and monitor dementia, aphasia,
-                and various cognitive conditions. Using a short one-minute sample of
-                speech, WinterLight can characterize the speaker's cognitive,
-                acoustic and linguistic state, including lexical diversity, syntactic complexity, semantic content, and articulation.
+            <div class="col-md-4 science">
+              <h3>Detecting Alzheimer’s disease</h3>
+              <img src="img/science-ad-small.jpg" alt="">
+              <p class="science-info">
+                Analysis of spontaneous speech data elicited through
+                Cookie Theft picture description (1-5 minute samples)
+                from 240 people probable AD category and 233 healthy
+                controls. Linguistic and acoustic variables used to
+                train a machine learning classifier to distinguish
+                between the groups, <strong>with 82% accuracy</strong>.
               </p>
-              <p>
-                Using samples of a person’s speech, WinterLight’s platform analyzes
-                hundreds of linguistic cues and can detect dementia of the Alzheimer
-                type and other conditions with accuracies between 82% and 100%, as
-                reported in our peer-reviewed academic studies. WinterLight’s platform
-                provides major improvements over current pencil-and-paper tests
-                which can be time-consuming, subjective, costly, coarse, and challenging to administer.
-                Our platform has applications in clinical trials, long-term and primary care, and speech-language pathology.
+              <p class="science-ref">
+                <strong>Fraser, K. C., Meltzer, J. A., &amp; Rudzicz, F.</strong> (2016).
+                Linguistic features identify Alzheimer’s disease in
+                narrative speech. Journal of Alzheimer's Disease,49(2),
+                407-422.
               </p>
-              <p>
-                WinterLight’s software is based on years of experience and academic,
-                peer-reviewed research. Our team has extensive experience in cognitive
-                neurology, speech technology, and artificial intelligence, and we
-                continue to actively publish in top journals and conferences.
+            </div>
+
+
+            <div class="col-md-4 science">
+              <h3>Predicting MMSE for AD monitoring</h3>
+              <img src="img/science-mmse-small.jpg" alt="">
+              <p class="science-info">
+                A temporal Bayes network trained on 182 lexicosyntactic,
+                210 acoustic, and 85 semantic features extracted from
+                393 spontaneous speech samples elicited through Cookie
+                Theft picture description can <strong>predict MMSE scores</strong>
+                with a mean absolute error of 3.8, comparable to within-subject
+                interrater (clinician) standard deviation of 3.9 to 4.8.
+              </p>
+              <p class="science-ref">
+                <strong>Yancheva, M., Fraser, K., &amp; Rudzicz, F.</strong>
+                (2015). Using Linguistic Features Longitudinally to
+                Predict Clinical Scores for Alzheimer's Disease and
+                Related Dementias.
+              </p>
+            </div>
+
+            <div class="col-md-4 science">
+              <h3>Subtyping primary progressive aphasia </h3>
+              <img src="img/science-classification-small.jpg" alt="">
+              <p class="science-info">
+                Syntactic and semantic features were automatically extracted
+                from transcriptions of narrative speech for three groups:
+                semantic dementia (SD), progressive nonfluent aphasia (PNFA),
+                and healthy controls. Machine learning classifiers trained on
+                these features were able to <strong>distinguish between the three
+                participant groups with up to 100% accuracy</strong>.
+</p>
+              <p class="science-ref">
+                <strong>
+                  Fraser, K.C., Meltzer, J.A., Graham, N.L., Leonard, C.,
+                  Hirst, G., Black, S.E., &amp; Rochon, E. </strong>(2014).
+                  Automated classification of primary progressive aphasia
+                  subtypes from narrative speech transcripts. Cortex; a
+                  journal devoted to the study of the nervous system and
+                  behavior, 55, 43-60.
+
               </p>
             </div>
 
@@ -160,70 +170,43 @@
         </div>
     </div>
 
-    <div class="container">
-        <!-- Team -->
-        <div class="featurette">
-          <h2 class="featurette-heading">Our assessment: how we collect speech
-</h2>
-          <div class="row">
-            <div class="col-md-12">
-              <img src="img/how-it-works.jpg" style="width: 100%;" alt="WinterLight Speech Analysis" />
-            </div>
+    <div class="container  gradient-wll">
+        <!-- First Featurette -->
+        <div class="featurette" id="about">
+          <h2 class="featurette-heading">
+            WinterLight's Team
+          </h2>
 
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                  <p>
+                      <img src="img/team/wll-frank.png" class="team-photo">
+                      <strong>Frank Rudzicz</strong> is an international expert on speech technology for individuals with speech disorders. He is the President of the international joint ACL/ISCA special interest group on Speech and Language Processing for Assistive Technology, a Young Investigator of the Alzheimer’s Society a Scientist at Toronto Rehab, and an Assistant Professor at the University of Toronto.
+                  </p>
+                  <p>
+                      <img src="img/team/wll-liam.png" class="team-photo">
+                      <strong>Liam Kaufman</strong> has published peer reviewed articles in cognitive neurology, human computer interaction and neuroscience. He is an experienced software developer, and has successfully launched Understoodit, a startup acquired by EventMobi, and featured in The Toronto Star, CTV News, and TechCrunch.<br><br>
+                  </p>
+
+              </div>
+              <div class="col-md-6">
+                  <p>
+                      <img src="img/team/wll-katie.png" class="team-photo">
+                      <strong>Katie Fraser</strong> has published a number of peer-reviewed papers in both computer science conferences and neuroscience journals about her research on the automatic detection of dementia, and post-stroke aphasia. She was awarded a Google Canada Anita Borg scholarship and an NSERC scholarship and was named a 2015 MIT Rising Star in Computer Science.
+                  </p>
+                  <p>
+                      <img src="img/team/wll-maria.png" class="team-photo">
+                      <strong>Maria Yancheva</strong> conducts research on the automatic detection of dementia longitudinally, for which she was awarded an NSERC scholarship. She has experience developing software for Scotiabank’s trade floor, and has co-founded GroceryGo, a startup featured on BlogTO.
+                  </p>
+
+              </div>
+            </div>
           </div>
+
         </div>
     </div>
 
-    <div class="container">
-        <!-- Team -->
-        <div class="featurette">
-          <h2 class="featurette-heading">How our speech and language analysis works</h2>
-          <div class="row">
-            <div class="col-md-12">
-              <img src="img/analysis.jpg" style="width: 100%;" alt="WinterLight Speech Analysis" />
-              <p style="margin-top: 20px;">
-                <em>
-                People with Alzheimer’s have word finding difficulties which results in longer
-                pauses between words, more hesitation, using more pronouns and fewer nouns
-                (e.g. “her” instead of “Rita”) and using less complex words (e.g. “car” instead of “sedan”).
-                In contrast, a person with Parkinson’s disease or Multiple Sclerosis sounds different
-                but might use the same language as a neurologically healthy senior.
-              </em>
-              </p>
-            </div>
-
-          </div>
-        </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="featurette" id="news">
-          <h2 class="featurette-heading">WinterLight News</h2>
-
-          <ul>
-            <li>January 2017 -
-              <a href="news/fairchild.html">WinterLight Labs' Co-founder Liam Kaufman interviewed on Fairchild TV’s Timeline Magazine</a>
-            </li>
-            <li>January 2017 -
-              <a href="news/wired.html">
-                WinterLight Labs’ Frank Rudzicz quoted in Wired Magazine
-              </a>
-            </li>
-            <li>January 2017 -
-              <a href="news/seed-funding.html">
-                WinterLight Labs secures seed funding to commercialize speech-based detection of cognitive impairments
-              </a>
-            </li>
-            <li>July 2016 - <a href="news/age-well.html">Canadian Technology that Uses Speech to Track Alzheimer’s Captures First Prize at AGE-WELL Pitch Competition  </a></li>
-            <li>July 2016 - <a href="news/creative-destruction-lab.html">Wintelight Labs “Graduates” from the Rotman Creative Destruction Lab</a></li>
-            <li>December 2015 - <a href="news/fraser-research.html">WinterLight Labs Co-founders publish ground-breaking research on dementia and Alzheimers Disease detection using natural language</a></li>
-          </ul>
-        </div>
-        </div>
-      </div>
-
-    </div>
 
     <div class="container">
         <!-- Team -->

@@ -82,9 +82,11 @@ body {
 }
 
 .headline h2 {
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     font-weight: 300;
+    line-height: 40px;
+
 }
 
 .featurette-divider {
@@ -94,9 +96,9 @@ body {
 
 .featurette {
     overflow: hidden;
-    padding: 80px 0;
+    padding: 0;
+    margin: 20px 0;
     position: relative;
-    top: -80px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
@@ -114,6 +116,9 @@ body {
 
 .featurette-heading {
     font-size: 50px;
+    text-align: center;
+    margin: 30px;
+    color: #4174a1;
 }
 
 .team-photo {
@@ -147,6 +152,46 @@ body {
    * blue: b2dff5
   */
 }
+/* FRONT PAGE */
+.channel{
+  /*background-color: #ccc;*/
+  margin-top: 20px;
+  text-align : center;
+}
+.channel img {
+  width: 125px;
+  border: 5px solid #ffc000;
+  border-radius: 2px;
+
+}
+
+.channel a:hover {
+  text-decoration: none;
+}
+
+.sub-heading {
+  color: #e2aa01;
+  }
+
+.science h3 {
+  background-color: #38a4c8;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 3px;
+}
+.science img{
+  width: 100%;
+  border: 5px solid #38a4c8;
+}
+
+.science-info {
+  margin: 10px 0;
+}
+
+.science-ref {
+  font-size: 80%;
+}
 
 /* SLP Page */
 .hero {
@@ -156,11 +201,12 @@ body {
 }
 
 .sub-hero {
-  color: #fee712;
-  background-color: #b39ac3;
-  padding: 5px 10px;
+  color: #fff;
+  background-color: #777;
+  padding: 10px;
   display: inline-block;
   border-radius: 5px;
+  opacity: 0.8;
 }
 
 .beta-h3{
@@ -344,7 +390,7 @@ footer {
     }
 
     .headline h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .featurette-divider {
@@ -370,7 +416,7 @@ footer {
     }
 
     .headline h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .featurette-divider {
