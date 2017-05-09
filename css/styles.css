@@ -177,11 +177,12 @@ body {
 }
 
 .sub-hero {
-  color: #fee712;
-  background-color: #b39ac3;
-  padding: 5px 10px;
+  color: #fff;
+  background-color: #777;
+  padding: 10px;
   display: inline-block;
   border-radius: 5px;
+  opacity: 0.8;
 }
 
 .beta-h3{
