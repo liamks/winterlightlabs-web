@@ -82,9 +82,11 @@ body {
 }
 
 .headline h2 {
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     font-weight: 300;
+    line-height: 40px;
+
 }
 
 .featurette-divider {
@@ -94,9 +96,9 @@ body {
 
 .featurette {
     overflow: hidden;
-    padding: 80px 0;
+    padding: 0;
+    margin: 20px 0;
     position: relative;
-    top: -80px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
@@ -114,6 +116,9 @@ body {
 
 .featurette-heading {
     font-size: 50px;
+    text-align: center;
+    margin: 30px;
+    color: #4174a1;
 }
 
 .team-photo {
@@ -146,6 +151,18 @@ body {
   /* purple: b39ac3
    * blue: b2dff5
   */
+}
+/* FRONT PAGE */
+.channel{
+  /*background-color: #ccc;*/
+  margin-top: 20px;
+  text-align : center;
+}
+.channel img {
+  width: 125px;
+  border: 5px solid #ffc000;
+  border-radius: 2px;
+
 }
 
 /* SLP Page */
@@ -344,7 +361,7 @@ footer {
     }
 
     .headline h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .featurette-divider {
@@ -370,7 +387,7 @@ footer {
     }
 
     .headline h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .featurette-divider {
