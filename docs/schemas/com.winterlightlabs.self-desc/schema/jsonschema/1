@@ -1,0 +1,45 @@
+{
+    "$schema" : "http://www.winterlightlabs.com/docs/schemas/com.winterlightlabs.self-desc/schema/jsonschema/1#",
+    "description": "Meta-schema for self-describing JSON schema",
+    "self": {
+        "vendor": "com.winterlightlabs.self-desc",
+        "name": "schema",
+        "format": "jsonschema",
+        "version": 1
+    },
+
+    "allOf": [
+        {
+            "properties": {
+                "self": {
+                    "type": "object",
+                    "properties": {
+                        "vendor": {
+                            "type": "string",
+                            "pattern": "^[a-zA-Z0-9-_.]+$"
+                        },
+                        "name": {
+                            "type": "string",
+                            "pattern": "^[a-zA-Z0-9-_]+$"
+                        },
+                        "format": {
+                            "type": "string",
+                            "pattern": "^[a-zA-Z0-9-_]+$"
+                        },
+                        "version": {
+                            "type": "integer"
+                        }
+                    },
+                    "required": ["vendor", "name", "format", "version"],            
+                    "additionalProperties": false
+                }
+            },
+            "required": ["self"]
+        },
+
+        {
+            "$ref": "http://json-schema.org/draft-04/schema#"
+        }
+    ]
+
+}
